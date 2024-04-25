@@ -59,7 +59,14 @@ body {
 .experience-list {
 }
 .experience-item {
+  margin-bottom: 19px;
 }
+
+.experience-item > .experience-desc:nth-last-child(2) {
+  margin-bottom: 32px;
+}
+
+
 .experience-title {
   font-weight: 600;
   font-size: 16px;
@@ -77,9 +84,7 @@ body {
   color: #fafafa;
 }
 
-.experience-item > .experience-desc:nth-last-child(2) {
-  margin-bottom: 32px;
-}
+
 
 /* @media screen and (min-width: 768px) {
   .container {
